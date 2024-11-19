@@ -1,0 +1,42 @@
+[
+    {
+        "$origin": "google.com.",
+        "a":[{"ttl":3600,"value":"142.250.190.78"}]
+    },
+    {
+        "$origin":"instagram.com.",
+        "a":[{"ttl":3600,"value":"157.240.229.174"}]
+    },
+    {
+        "$origin":"wikipedia.com.",
+        "a":[{"ttl":3600,"value":"208.80.154.224"}]
+    },
+    {
+        "$origin":"youtube.com.",
+        "a":[{"ttl":3600,"value":"142.250.190.46"}]
+    },
+    {
+        "$origin":"facebook.com.",
+        "a":[{"ttl":3600,"value":"157.240.229.35"}]
+    },
+    {
+        "$origin":"twitter.com.",
+        "a":[{"ttl":3600,"value":"104.244.42.1"}]
+    },
+    {
+        "$origin":"linkedin.com.",
+        "a":[{"ttl":3600,"value":"108.174.10.10"}]
+    },
+    {
+        "$origin":"amazon.com.",
+        "a":[{"ttl":3600,"value":"205.251.242.103"}]
+    },
+    {
+        "$origin":"reddit.com.",
+        "a":[{"ttl":3600,"value":"151.101.65.140"}]
+    },
+    {
+        "$origin":"netflix.com.",
+        "a":[{"ttl":3600,"value":"52.223.190.240"}]
+    }
+]
