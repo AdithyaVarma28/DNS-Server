@@ -4,10 +4,10 @@ from utils.zone_loader import load_zone
 from handlers.response_builder import build_response
 from config.settings import IP,PORT
 
-def main():
+if __name__=="__main__":
     zonedata=load_zone()
     socket_udp=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
-    socket_udp.bind((IP, PORT))
+    socket_udp.bind((IP,PORT))
     logging.info(f"DNS Server started on {IP}:{PORT}")
 
     while True:
@@ -18,6 +18,3 @@ def main():
         socket_udp.sendto(response,address)
         print(f"Received request from {address}")
         print(f"Sending response to {address}")
-
-if __name__=="__main__":
-    main()
