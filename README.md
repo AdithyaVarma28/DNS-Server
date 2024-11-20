@@ -53,7 +53,7 @@ To set up and run the DNS server, follow these steps:
 2. **DNS Response:**
    The server will process the query, look up the corresponding DNS records from the zone files, and respond with the requested record (if found). For example, the server might respond with a record such as `142.250.190.78` for the query `google.com`.
 
-   ![Client to server](client and server.png)
+   ![Client to server](images/client-server.png)
 
 3. **Logging:**
    The server logs all incoming requests and outgoing responses to the `logs/server.log` file. This includes the timestamp and hexadecimal representation of the data.
